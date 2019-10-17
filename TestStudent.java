@@ -12,6 +12,9 @@ class Student{
 		this(rollno,name,course);
 		this.fee=fee;
 	}
+	void display(){
+		System.out.println(rollno+" "+name+" "+fee);
+	}
 
 	
 	
