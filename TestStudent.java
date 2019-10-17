@@ -19,9 +19,11 @@ class Student{
 class TestStudent{
 	public static void main(String args[]){
 		Student S1=  new Student(111,"ankit","java");
-		Student S2=  new Student(112,"sumit","java",6000f);	
+		Student S2=  new Student(112,"sumit","java",6000f);
+		Student s3=  new Student(113,"amith","java");
 		S1.display();
 		S2.display();
+		S3.display();
 	}
 }		
 	
