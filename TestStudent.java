@@ -8,7 +8,10 @@ class Student{
 		this.name=name;
 		this.course=course;
 	}
-	
+		Student(int rollno, String name,String course,float fee){
+		this(rollno,name,course);
+		this.fee=fee;
+	}
 
 	
 	
